@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    align-items: center;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#fre{
+    margin: auto;
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+@media screen and (min-width:1400px){
+    #left{
+        width: 25%;
+        margin-left: 8%;
+    }
+    #rig{
+        width: 25%;
+        margin-right: 4%;
+    }
+}
+body{
+    background-color: teal;
+    font-family: 'Gwendolyn', cursive;
+}
+#menuArea {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.322);
+    transition: box-shadow 0.5s ease-in-out;
+}
+.header{
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+}
+th,td{
+    padding: 15px;
+    border: black solid 3px;
+}
+table {
+    text-decoration:none;
+    border: none;
+    color: #000000;
+    /*text-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px #0fa,
+            0 0 82px #0fa,
+            0 0 92px #0fa,
+            0 0 102px #0fa,
+            0 0 151px #0fa;
+     */
+    padding: 20px 35px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 20px;
+    border: 4px solid black;
+    border-collapse: collapse;
+    font-family: 'Gwendolyn', cursive;
+}
+form dt{
+    font-weight: bold;
+
+}
+form input[type=submit]{
+    border-radius: 10px;
+    border: teal;
+    background-color: teal;
+}
+form input[type=number]{
+    width: 75px;
+    border-radius: 1px;
+    font-family: inherit;
+}
+form select, input[type=text]{
+    border-radius: 1px;
+    font-family: inherit;
+}
+a{
+    color: lightblue;
+}
+a:hover{
+    font-weight: bold;
+}* {
+     box-sizing: border-box;
+ }
+
+.column {
+    align-items: center;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#fre{
+    margin: auto;
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+@media screen and (min-width:1400px){
+    #left{
+        width: 25%;
+        margin-left: 8%;
+    }
+    #rig{
+        width: 25%;
+        margin-right: 4%;
+    }
+}
+body{
+    background-color: #30c2bd;
+    font-family: 'Gwendolyn', cursive;
+}
+.header{
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+}
+th {
+    color: #ff00ea;
+    text-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px #0fa,
+            0 0 82px #0fa,
+            0 0 92px #0fa,
+            0 0 102px #0fa,
+            0 0 151px #0fa;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+table{
+    text-align: center;
+    width: 100%;
+    border: solid #000000 2px;
+    border-collapse: collapse;
+}
+form dt{
+    font-weight: bold;
+
+}
+
+#logo{
+    position: relative;
+    top: 12px;
+    right: 1px;
+}
+#logo img{
+    width: 40px;
+    height: 40px;
+}
+
+form input[type=submit]{
+    border-radius: 10px;
+    border: teal;
+    background-color: teal;
+}
+form input[type=number]{
+    width: 75px;
+    border-radius: 1px;
+    font-family: inherit;
+}
+form select, input[type=text]{
+    border-radius: 1px;
+    font-family: inherit;
+}
+a{
+    color: #9524d3;
+}
+a:hover{
+    font-weight: bold;
+}
+header h1{
+    font-size: 3rem;
+    text-align:center;
+    letter-spacing: 0.4cm;
+    padding: 0.5cm;
+    font-weight: 700;
+    opacity: 1;
+    margin-left: 0%;
+    margin-top: 1%;
+    color: #ff00ea;
+    text-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px #0fa,
+            0 0 82px #0fa,
+            0 0 92px #0fa,
+            0 0 102px #0fa,
+            0 0 151px #0fa;
+    font-size: 40px;
+}
+
+header{
+    background: #269b3a;
+    margin-left: 5%;
+    margin-right: 5%;
+    height:160px;
+    background-repeat:no-repeat;
+    font-size: 20px;
+    font-family: 'Gwendolyn', cursive;
+    border-left: 6px  inset rgb(0, 0, 0);
+    border-bottom: 7px inset rgb(0, 0, 0);
+    border-right: 6px  inset rgb(0, 0, 0);
+    border-top: 7px inset rgb(0, 0, 0);
+    border-radius: 12px 6px 12px 6px;
+    text-shadow: navy 0 0 1px;
+    box-shadow: rgb(75, 64, 34) 10px 10px 20px;
+    opacity: 0.8;
+}
